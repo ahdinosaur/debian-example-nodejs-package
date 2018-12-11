@@ -1,0 +1,20 @@
+Source: example-nodejs
+Section: base
+Priority: optional
+Maintainer: "Michael Williams" <michael.williams@enspiral.com>
+Build-Depends:
+  debhelper (>=10~)
+  , nodejs
+  , npm
+Standards-Version: 4.1.4
+Homepage: https://github.com/ahdinosaur/debian-example-nodejs-package
+
+Package: example-nodejs
+Architecture: any
+Multi-Arch: foreign
+Depends:
+  ${misc:Depends}
+  , ${shlibs:Depends}
+  , nodejs
+Description: An example Node.js script packaged
+  for Debian

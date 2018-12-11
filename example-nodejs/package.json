@@ -1,0 +1,24 @@
+{
+  "name": "example-nodejs",
+  "version": "1.0.0",
+  "description": "an example script as a Debian package",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahdinosaur/debian-example-nodejs-package.git"
+  },
+  "keywords": [
+    "debian",
+    "example",
+    "package"
+  ],
+  "author": "ahdinosaur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahdinosaur/debian-example-nodejs-package/issues"
+  },
+  "homepage": "https://github.com/ahdinosaur/debian-example-nodejs-package#readme"
+}

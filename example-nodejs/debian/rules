@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+LC_ALL := C.UTF-8
+export LC_ALL
+
+%:
+	dh $@
+
+override_dh_fixperms:
+	dh_fixperms
+	chmod +x debian/example-nodejs/usr/lib/example-nodejs/bin.js
